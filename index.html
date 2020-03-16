@@ -5,10 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="main.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    <h1>TO DO List project</h1>
+    <!-- <div>Your to do lists</div> -->
+
+    <div class='sidebar'>
+        <h4><p>My lists:</p></h4>
+        <ul class='list-list'>
+            <!-- <li data-list='all'><i class="material-icons">face</i>all tasks</li>
+            <li data-list='sport'><i class="material-icons">face</i>sport</li> -->
+        </ul>
+        <form>
+            <input type="text" id='list-input' placeholder="+ new list">
+            <button type="button" id='list-submit'>
+                +add
+            </button>
+        </form>
+    </div>
+
+    <div class='content'>
+        <div class='tasks-box'>
+            
+            <form>
+                <input type="text" id='task-input' placeholder="+ new task">
+                <button type="button" id='task-submit'>
+                    +add
+                </button>
+            </form>
+            <div class='task-item'>
+                <input type="checkbox">
+                item
+                <a class='rm-task' href="">close</a>
+            </div>
+        </div>
+
+        <div class='info'>
+            
+            <!-- <textarea></textarea>
+
+            
+                <div> 
+                    <i class="material-icons">wb_sunny</i>       
+                    <span>Add to My Day</span> 
+                </div>
+                <div>
+                    <i class="material-icons">whatshot</i> 
+                    <span>Set high priority</span> 
+                </div> -->
+                
+                
+            
+            
+            <!-- <img src="caduceus.jpg" alt="caduceus.jpg" width="200px"> -->
+        </div>
+
+    </div>
+
     
+
 </body>
+<script src="main.js"></script>
 </html>
