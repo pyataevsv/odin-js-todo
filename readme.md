@@ -18,5 +18,7 @@ Assignment:
     - expand todos to see details
 
 6. Use localstorage
+
+7. Not adaptive
  
 
